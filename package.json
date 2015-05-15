@@ -1,0 +1,26 @@
+{
+	"name": "gravity",
+	"version": "0.0.1",
+	"description": "",
+	"main": "app.js",
+	"author": "Hugo Campos <hcfields@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"del": "*",
+		"coffee-script": "1.9.2",
+		"express": "*",
+		"gulp": "*",
+		"gulp-coffee": "2.3.1",
+		"gulp-coffee-react": "1.0.0",
+		"gulp-concat": "*",
+		"gulp-less": "*",
+		"gulp-plumber": "1.0.0",
+		"gulp-sourcemaps": "1.5.2",
+		"lodash": "*",
+		"merge2": "*",
+		"serve-static": "*"
+	},
+	"engines": {
+		"node": "0.10.x"
+	}
+}

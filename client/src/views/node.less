@@ -1,0 +1,39 @@
+.node {
+	@import 'vars.less';
+
+	@node-color: #ddd;
+
+	width: 200px;
+	background: @node-color;
+	font-family: "Arial";
+	padding: @padding;
+	border-radius: @border-radius;
+
+	.label {
+		display: block;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: @padding;
+	}
+
+	.connectors {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.inputs, .outputs {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		width: 50%;
+	}
+
+	.inputs {
+		text-align: left;
+	}
+
+	.outputs {
+		text-align: right;
+	}
+}
